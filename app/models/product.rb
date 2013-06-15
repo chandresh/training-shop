@@ -8,5 +8,9 @@ class Product < ActiveRecord::Base
     order.sample(9)
   end
 
+  def related_products
+    Product.order.sample(3) # we do not know yet
+  end
+
 
 end
