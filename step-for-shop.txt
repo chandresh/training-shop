@@ -102,7 +102,10 @@ localhost:3000/admin/categories <= CRUD
 
 26. On homepage, the category list should be functional
 
-
 -----
+
+
+
+
 
 	
