@@ -48,4 +48,9 @@ git remote add origin git@github.com:chandresh/training-shop.git
 
 7. create a controller & action for homepage.
 
-8
+8. rename css to scss and covert all image references to something like:
+
+background-image: url("templatemo_body.jpg");
+
+
+	
