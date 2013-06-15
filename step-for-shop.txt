@@ -80,4 +80,10 @@ def self.home_page_products
 
 17. Added paperclip for product image.
 
-18. Admin namespace	
+18. Admin namespace
+
+19. Add simple form
+
+20. Copy scaffold from earlier project.
+
+21. Change names	
