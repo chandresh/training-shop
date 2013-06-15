@@ -27,7 +27,19 @@ Step 1: Add gem 'pg'
 2: Change database.yml
 3. rake db:create:all
 
-1. Template
+--------------------------------------------------
 
+https://github.com/chandresh/training-shop
 
+1. rails new shop -d postgresql -T --skip-bundle
 
+2. git init; git add .; git commit -m "initial"
+
+3. create a github repo and run:
+git remote add origin git@github.com:chandresh/training-shop.git
+
+4. git push -u origin master
+
+5. Template
+	- add images, css, js etc.
+	- Copy the index page html to our layouts/application.html.erb
