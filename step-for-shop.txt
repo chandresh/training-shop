@@ -43,3 +43,7 @@ git remote add origin git@github.com:chandresh/training-shop.git
 5. Template
 	- add images, css, js etc.
 	- Copy the index page html to our layouts/application.html.erb
+
+6. delete public/index.html
+
+7. create a controller & action for homepage.
