@@ -72,4 +72,4 @@ def self.home_page_products
     order.sample(9) # random 9 items
   end
 
-	
+14. 	

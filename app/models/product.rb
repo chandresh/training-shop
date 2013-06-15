@@ -1,6 +1,7 @@
 class Product < ActiveRecord::Base
-  attr_accessible :description, :model_no, :name, :price, :inventory
+  attr_accessible :description, :model_no, :name, :price, :inventory, :image
 
+  has_attached_file :image, :styles => {:medium => "300x300>", :thumb => "100x100>"}
 
   ## class methods
 
