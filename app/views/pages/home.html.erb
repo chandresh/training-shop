@@ -27,7 +27,7 @@
 
       <p class="product_price"><%= number_to_currency product.price %></p>
       <a href="shoppingcart.html" class="addtocart"></a>
-      <a href="productdetail.html" class="detail"></a>
+      <%= link_to "", product, class: "detail" %>
     </div>
 <% end %>
 
