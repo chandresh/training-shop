@@ -72,4 +72,12 @@ def self.home_page_products
     order.sample(9) # random 9 items
   end
 
-14. 	
+14. Link the details page
+
+15. Related products
+
+16. Basic inventory on show page
+
+17. Added paperclip for product image.
+
+18. Admin namespace	
