@@ -52,5 +52,7 @@ git remote add origin git@github.com:chandresh/training-shop.git
 
 background-image: url("templatemo_body.jpg");
 
+9. Find the content area / main area and put: <%= yield %>
 
+10. 
 	
