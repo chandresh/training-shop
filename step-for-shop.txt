@@ -1,0 +1,33 @@
+Basic Shopping Cart
+	- Admin can login
+	- Admin can create categories
+	- Admin can create products
+	- Admin can view orders
+	- Admin can mark orders as shipped
+
+	- Visitors/Buyers can view products
+	- Visitors/Buyers can search products
+	- Visitors/Buyers can add products to their cart
+	- Visitors/Buyers can checkout and submit an order
+extra:
+	- Visitors/Buyers can login/signup
+	- Members can view their old orders
+	- Members can view the status of their orders
+
+1. Learn how to create an e-commerce website.
+2. Do most stuff without scaffolding.
+3. Search
+4. Diff databases
+5. Some part as TDD/BDD using Rspec & Cucumber
+
+-------------------------------------------------
+
+Using postgresql:
+Step 1: Add gem 'pg'
+2: Change database.yml
+3. rake db:create:all
+
+1. Template
+
+
+
