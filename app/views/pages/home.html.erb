@@ -17,15 +17,15 @@
 </script>
 <h1>New Products</h1>
 
-<% 10.times do %>
+<% @home_page_products.each do |product| %>
 
     <div class="product_box">
-      <h3>Ut eu feugiat</h3>
+      <h3><%= product.name %></h3>
       <a href="productdetail.html"><%= image_tag "product/01.jpg" %></a>
 
-      <p>Nulla rutrum neque vitae erat condimentum eget malesuada.</p>
+      <p><%= truncate(product.description.to_s, length: 10) %></p>
 
-      <p class="product_price">$ 100</p>
+      <p class="product_price"><%= number_to_currency product.price %></p>
       <a href="shoppingcart.html" class="addtocart"></a>
       <a href="productdetail.html" class="detail"></a>
     </div>

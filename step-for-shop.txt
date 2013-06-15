@@ -54,5 +54,22 @@ background-image: url("templatemo_body.jpg");
 
 9. Find the content area / main area and put: <%= yield %>
 
-10. 
+10. Put the code we like to see in our homepage, like we have a fake instance variable.
+And then we make the code work!
+
+11. Add model & change migration to add precision & scale:
+
+rails g model Product name description:text price:decimal model_no
+
+t.decimal :price, :precision => 8, :scale => 2
+
+12. Added a truncate for description:
+<%= truncate(product.description.to_s, length: 10) %>
+
+13. We created a class method:
+
+def self.home_page_products
+    order.sample(9) # random 9 items
+  end
+
 	
