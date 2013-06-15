@@ -86,4 +86,23 @@ def self.home_page_products
 
 20. Copy scaffold from earlier project.
 
-21. Change names	
+21. Change names: for example @categories to @products so on..
+
+22. added image field to upload the images to products.
+
+Class work: 
+
+23. Add category to the admin:
+
+localhost:3000/admin/categories <= CRUD
+
+24. Create a has_many association between category & products
+
+25. On products form: have a drop-down of categories to choose.
+
+26. On homepage, the category list should be functional
+
+
+-----
+
+	

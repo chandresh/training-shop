@@ -21,7 +21,7 @@
 
     <div class="product_box">
       <h3><%= product.name %></h3>
-      <a href="productdetail.html"><%= image_tag "product/01.jpg" %></a>
+      <a href="productdetail.html"><%= image_tag product.image %></a>
 
       <p><%= truncate(product.description.to_s, length: 10) %></p>
 
