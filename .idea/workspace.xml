@@ -9,9 +9,9 @@
     <file path="/application.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371260251612" ignored="false" />
     <file path="/home.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371306935588" ignored="false" />
     <file path="/pages_controller.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371260674737" ignored="false" />
-    <file path="/product.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371307831993" ignored="false" />
+    <file path="/product.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371308132616" ignored="false" />
     <file path="/products_controller.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371307377686" ignored="false" />
-    <file path="/show.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371307656173" ignored="false" />
+    <file path="/show.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371308321363" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="20" selection-start="859" selection-end="859" vertical-scroll-proportion="-9.821428">
+            <state line="32" column="45" selection-start="927" selection-end="927" vertical-scroll-proportion="0.7246377">
               <folding>
-                <element signature="e#634#672#0" expanded="true" />
+                <element signature="e#681#719#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="product.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/product.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="24" selection-start="217" selection-end="217" vertical-scroll-proportion="0.30749682">
+            <state line="11" column="21" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,8 +112,8 @@
         <option value="$PROJECT_DIR$/app/views/pages/home.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
+        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
       </list>
     </option>
   </component>
@@ -771,19 +771,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="859" selection-end="859" vertical-scroll-proportion="-9.821428">
-          <folding>
-            <element signature="e#634#672#0" expanded="true" />
-          </folding>
+        <state line="11" column="21" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="24" selection-start="217" selection-end="217" vertical-scroll-proportion="0.30749682">
-          <folding />
+        <state line="32" column="45" selection-start="927" selection-end="927" vertical-scroll-proportion="0.7246377">
+          <folding>
+            <element signature="e#681#719#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

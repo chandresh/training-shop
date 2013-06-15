@@ -11,7 +11,7 @@
     </tr>
     <tr>
       <td>Availability:</td>
-      <td>In Stock</td>
+      <td><%= @product.in_stock? ? "In Stock" : "Out of Stock" %></td>
     </tr>
     <tr>
       <td>Model:</td>
@@ -27,9 +27,12 @@
     </tr>
   </table>
   <div class="cleaner h20"></div>
-
-  <a href="shoppingcart.html" class="addtocart"></a>
-
+  <% if @product.in_stock? %>
+      <a href="shoppingcart.html" class="addtocart"></a>
+  <% else %>
+      Notify me when the product is available:
+  <input type="text">
+  <% end %>
 </div>
 <div class="cleaner h30"></div>
 
