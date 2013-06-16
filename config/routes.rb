@@ -1,5 +1,9 @@
 Shop::Application.routes.draw do
 
+  get "model/Category"
+
+  get "model/name"
+
   get "pages/home"
 
   root :to => 'pages#home'

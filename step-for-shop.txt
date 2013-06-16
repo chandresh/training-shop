@@ -104,6 +104,29 @@ localhost:3000/admin/categories <= CRUD
 
 -----
 
+27. Added HABTM:
+    - added has_and_belongs_to_many to both product.rb & category.rb
+    - created a join table:
+
+    rails g migration join_table_categories_products # blank migration
+
+    class JoinTableCategoriesProducts < ActiveRecord::Migration
+      def change
+        create_table :categories_products, id: false do |t|
+          t.integer :category_id
+          t.integer :product_id
+        end
+      end
+    end
+
+    - created some categories in console
+    - You can now use something like in console or otherwise:
+    Category.first.products.create
+    Category.find(10).products.create
+    Product.first.categories
+    - in the products form, we used:
+        form.association  :categories, as: :check_boxes
+
 
 
 
