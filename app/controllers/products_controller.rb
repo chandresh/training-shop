@@ -3,4 +3,9 @@ class ProductsController < ApplicationController
     @product = Product.find(params[:id])
   end
 
+  def index
+    @title = "All products"
+    @products = Product.all
+  end
+
 end

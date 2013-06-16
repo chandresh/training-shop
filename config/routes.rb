@@ -1,17 +1,15 @@
 Shop::Application.routes.draw do
-
-  get "model/Category"
-
-  get "model/name"
-
   get "pages/home"
 
   root :to => 'pages#home'
 
-  resources :products, only: [:show]
+  resources :products, only: [:show, :index]
+
+  get 'search' => 'search#index'
 
   namespace :admin do
     resources :products
+    resources :categories
 
   end
 

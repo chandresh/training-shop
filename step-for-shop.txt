@@ -164,3 +164,18 @@ end
         form.association  :manufacturers, as: :check_boxes
 
 	
+
+29. Added a search form & routes.
+30. Different ways to render a collection with partial (_product.html.erb):
+
+<% @products.each do |product| %>
+    <%= render partial: "product", locals: {product: product} %>
+<% end %>
+
+<% @products.each do |product| %>
+    <%= render partial: "product", object: product %>
+<% end %>
+
+<%= render @products %>
+
+
