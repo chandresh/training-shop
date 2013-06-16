@@ -129,6 +129,38 @@ localhost:3000/admin/categories <= CRUD
 
 
 
+28. Has many through for manufacturer
+		
+	- created two models: manufacturer & product_manufacturer
+	- we added associations:
 
+class Manufacturer < ActiveRecord::Base
+  attr_accessible :name
+  has_many :product_manufacturers
+  has_many :products, through: :product_manufacturers
+end
+
+class ProductManufacturer < ActiveRecord::Base
+  attr_accessible :manufacturer_id, :product_id
+
+  belongs_to :manufacturer
+  belongs_to :product
+
+end
+
+class Product < ActiveRecord::Base
+  attr_accessible :description, :model_no, :name, :price, :inventory, :image, :category_ids, :manufacturer_ids
+
+  has_and_belongs_to_many :categories
+
+  has_many :product_manufacturers
+  has_many :manufacturers, through:  :product_manufacturers
+
+end
+
+    - You can now use something like in console or otherwise:
+    	Manufacturer.first.products
+    - in the products form, we used:
+        form.association  :manufacturers, as: :check_boxes
 
 	

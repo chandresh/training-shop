@@ -1,7 +1,10 @@
 class Product < ActiveRecord::Base
-  attr_accessible :description, :model_no, :name, :price, :inventory, :image, :category_ids
+  attr_accessible :description, :model_no, :name, :price, :inventory, :image, :category_ids, :manufacturer_ids
 
   has_and_belongs_to_many :categories
+
+  has_many :product_manufacturers
+  has_many :manufacturers, through:  :product_manufacturers
 
   has_attached_file :image, :styles => {:medium => "300x300>", :thumb => "100x100>"}
 

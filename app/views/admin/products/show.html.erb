@@ -10,6 +10,11 @@
   <%= @product.categories.pluck(:name).join(', ') %>
 </p>
 
+<p>
+  <b>Manufacturers:</b>
+  <%= @product.manufacturers.pluck(:name).join(', ') %>
+</p>
+
 
 <%= link_to 'Edit', edit_admin_product_path(@product) %> |
 <%= link_to 'Back', admin_products_path %>

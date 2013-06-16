@@ -9,19 +9,21 @@
     <file path="/application.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371260251612" ignored="false" />
     <file path="/home.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371310367001" ignored="false" />
     <file path="/pages_controller.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371260674737" ignored="false" />
-    <file path="/product.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371343307920" ignored="false" />
+    <file path="/product.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371344963332" ignored="false" />
     <file path="/products_controller.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371310128491" ignored="false" />
-    <file path="/show.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371344151817" ignored="false" />
+    <file path="/show.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371345395822" ignored="false" />
     <file path="/admin_controller.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371309207268" ignored="false" />
     <file path="/Dummy.txt" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371309318467" ignored="false" />
     <file path="/index.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371309659055" ignored="false" />
-    <file path="/_form.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371343982931" ignored="false" />
+    <file path="/_form.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371345275197" ignored="false" />
     <file path="/Gemfile" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371309819902" ignored="false" />
     <file path="/new.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371309913083" ignored="false" />
     <file path="/edit.html.erb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371310238267" ignored="false" />
     <file path="/category.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371343296316" ignored="false" />
     <file path="/20130616004425_join_table_categories_products.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371343586303" ignored="false" />
     <file path="/step-for-shop.txt" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371344472211" ignored="false" />
+    <file path="/manufacturer.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371345044582" ignored="false" />
+    <file path="/product_manufacturer.rb" changelist="3a047bce-a4d4-4c70-86e0-3b85b2b373d8" time="1371345059918" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,64 +40,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130616004425_join_table_categories_products.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130616004425_join_table_categories_products.rb">
+      <file leaf-file-name="product_manufacturer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/product_manufacturer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="63" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="0" column="25" selection-start="0" selection-end="150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="category.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/category.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="product.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/product.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="91" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/products/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="154" selection-end="154" vertical-scroll-proportion="-7.071429">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="step-for-shop.txt" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/step-for-shop.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="33" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.5104712">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/admin/products/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="53" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.714286">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20130615014652_create_products.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130615014652_create_products.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="5" selection-start="49" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="7" column="0" selection-start="0" selection-end="280" vertical-scroll-proportion="0.21728395">
               <folding />
             </state>
           </provider>
@@ -111,8 +68,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/products/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/products_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/products/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -123,10 +78,12 @@
         <option value="$PROJECT_DIR$/app/controllers/admin/admin_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/category.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20130616004425_join_table_categories_products.rb" />
+        <option value="$PROJECT_DIR$/step-for-shop.txt" />
+        <option value="$PROJECT_DIR$/app/models/manufacturer.rb" />
+        <option value="$PROJECT_DIR$/app/models/product_manufacturer.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/products/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/product.rb" />
         <option value="$PROJECT_DIR$/app/views/admin/products/show.html.erb" />
-        <option value="$PROJECT_DIR$/step-for-shop.txt" />
       </list>
     </option>
   </component>
@@ -269,6 +226,24 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -281,6 +256,7 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -662,18 +638,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="91" selection-end="91" vertical-scroll-proportion="0.16296296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/products/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="52" selection-start="378" selection-end="378" vertical-scroll-proportion="0.4219949" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/products/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="26" selection-start="92" selection-end="92" vertical-scroll-proportion="0.08695652" />
@@ -721,51 +685,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130615014652_create_products.rb">
+    <entry file="file://$PROJECT_DIR$/step-for-shop.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="49" selection-end="252" vertical-scroll-proportion="0.0">
+        <state line="100" column="19" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.107329845">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/category.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="76" selection-end="76" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/products/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="53" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.714286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="91" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/admin/products/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="154" selection-end="154" vertical-scroll-proportion="-7.071429">
+        <state line="2" column="16" selection-start="76" selection-end="76" vertical-scroll-proportion="0.055908512">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20130616004425_join_table_categories_products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="63" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+        <state line="3" column="63" selection-start="157" selection-end="157" vertical-scroll-proportion="0.08386277">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/step-for-shop.txt">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20130615014652_create_products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="33" selection-start="2850" selection-end="2850" vertical-scroll-proportion="0.5104712">
+        <state line="10" column="5" selection-start="49" selection-end="252" vertical-scroll-proportion="0.27160493">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/products/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="124" selection-end="124" vertical-scroll-proportion="0.26086956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/products/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="261" selection-end="261" vertical-scroll-proportion="0.19693094">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/manufacturer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="19" selection-start="59" selection-end="59" vertical-scroll-proportion="0.027160494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product_manufacturer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="0" selection-end="150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/product.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="0" selection-end="280" vertical-scroll-proportion="0.21728395">
           <folding />
         </state>
       </provider>
